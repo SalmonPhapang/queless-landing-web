@@ -405,33 +405,14 @@
                 <span class="icon"><i class="lni lni-apple"></i></span>
                 <span class="text">Download on the <b>App Store</b> </span>
               </a>
-              <a href="javascript:void(0)">
+              <a href="https://play.google.com/store/apps/details?id=com.turnup.flutter_app">
                 <span class="icon"><i class="lni lni-play-store"></i></span>
                 <span class="text">GET IT ON <b>Play Store</b> </span>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
-            <h3>About Us</h3>
-            <ul class="links">
-              <li>
-                <a href="javascript:void(0)">Home</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Services</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">About Us</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="offset-3 col-lg-3 col-md-6">
           <div class="footer-widget wow fadeInUp" data-wow-delay=".6s">
             <h3>About</h3>
             <ul class="links">
