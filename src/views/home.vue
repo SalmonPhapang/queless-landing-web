@@ -49,6 +49,9 @@
                   <li class="nav-item">
                     <a class="page-scroll" href="#testimonial">Testimonials</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="page-scroll" href="#driver">Drive With Us</a>
+                  </li>
                 </ul>
               </div>
 
@@ -230,7 +233,6 @@
     </div>
   </section>
 
-
   <section id="testimonial" class="testimonial-section img-bg pt-150 pb-40">
     <div class="container">
       <div class="row justify-content-center">
@@ -384,10 +386,29 @@
     </div>
   </section>
 
+  <section id="driver" class="about-section received-section pt-150">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="about-img received-img wow fadeInUp" data-wow-delay=".5s">
+            <img src="assets/img/delivery/delivery-img.svg" alt="" height="300" />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-content received-content">
+            <div class="section-title">
+              <span class="wow fadeInUp" data-wow-delay=".2s">Drive with us</span>
+              <h1 class="mb-25 wow fadeInUp" data-wow-delay=".4s">Earn good money with your vehicle.</h1>
+              <p class="wow fadeInUp" data-wow-delay=".6s">The our registration process is simple. Once your account has been created, we will guide you by email throughout your registration in order to know your progress and the next steps to complete.</p>
+              <p class="wow fadeInUp" data-wow-delay=".6s">Work with your own schedule. No minimum hours and no boss.</p>
+              <a href="/onboarding" class="main-btn btn-hover wow fadeInUp mb-5" data-wow-delay=".6s">Apply Now</a>
+            </div>
 
-
-
-
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <footer id="footer" class="footer pt-100 pb-70">
     <div class="footer-shape">
       <img src="assets/img/footer/footer-left.svg" alt="" class="shape shape-1" />
