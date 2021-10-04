@@ -44,7 +44,7 @@
           <div class="about-content received-content">
             <div class="section-title">
               <span class="wow fadeInUp" data-wow-delay=".2s">Drive with us</span>
-              <form @submit="checkForm">
+              <form id="signup-form" @submit.prevent="checkForm">
                 <p v-if="errors.length">
                   <b>Please correct the following error(s):</b>
                 <ul>
@@ -61,7 +61,7 @@
                   <input type="text"  v-model="mobileNumber"  class="form-control" id="mobile" placeholder="Mobile Number">
                 </div>
                 <div class="form-group mb-3" >
-                  <input type="email"  v-model="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email address">
+                  <input type="email"  v-model="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email address">
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
 
@@ -97,6 +97,7 @@ import { createToast } from 'mosha-vue-toastify';
 import 'mosha-vue-toastify/dist/style.css'
 export default {
   name: "home",
+  el:"signup-form",
   data: function() {
     return {
     errors: [],
@@ -111,7 +112,6 @@ export default {
 },
   methods:{
     checkForm: function (e) {
-
       if (this.firstName && this.lastName && this.mobileNumber && this.email && this.acceptedTerms && this.acceptedPrivacy && this.validDrivers) {
         axios.post('https://queless-api.herokuapp.com/driver/save', {
           firstName:this.firstName,
@@ -131,7 +131,6 @@ export default {
           type: 'success',
           transition: 'bounce',
         });
-        return true;
       }
 
       this.errors = [];
